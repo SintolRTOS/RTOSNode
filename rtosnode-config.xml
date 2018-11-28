@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <SintolRTIServerConfig version="1">
-  <!-- This is an example configuration file for an rtinode server. -->
+  <!-- This is an example configuration file for an rtos server. -->
 
   <!-- Connect to the given parent server. -->
   <!-- <parentServer url="rtic://root.SintolRTI.org:14321"/> -->
@@ -16,5 +16,5 @@
   <listen url="rti://[127.0.0.1]:14321/"/>
 
   <!-- Listen on a local unix domain socket. -->
-  <!-- <listen url="pipe:///tmp/rtinode-server-socket"/> -->
+  <!-- <listen url="pipe:///tmp/rtos-server-socket"/> -->
 </SintolRTIServerConfig>
