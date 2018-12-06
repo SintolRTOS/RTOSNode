@@ -13,7 +13,7 @@
 
   <!-- Listen on any network socket on the default port. -->
   <!-- <listen protocol="rti" address="::" service="14321"/> -->
-  <listen url="rti://[127.0.0.1]:14321/"/>
+  <listen url="rti://[192.168.199.132]:14321/"/>
 
   <!-- Listen on a local unix domain socket. -->
   <!-- <listen url="pipe:///tmp/rtos-server-socket"/> -->
